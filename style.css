@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family:"Prompt",serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+*{
+    color: deeppink;
+}
+p {
+   font-size: 32pt;
+}
+
+#name {
+    font-size: 40pt;
+    color: blue;
+    background-color: aqua;
+    padding: 20px 20px 50px 100px;
+    margin: 20px 100px 20px 100px;
+}
+.name{
+    font-size: 28pt;
+    color: chocolate;
+}
+
+p.text{
+    font-size: 10pt;
+    color: rgb(45, 210, 30);  
+}
+
+.btn{
+    background-color: rgb(230, 46, 46);
+    color: gainsboro;
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    border: gold solid 2px;
+}
+.btn:hover{
+    background-color: rgb(46, 230, 163);
+    color: rgb(220, 10, 150);
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    border: rgb(21, 0, 255) solid 2px;
+}
+.btn:active{
+    background-color: rgb(230, 46, 46);
+    color: rgb(10, 217, 220);
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px;
+    border: rgb(255, 187, 0) solid 2px;
+}
+
+.inline{
+    display: inline;
+    background-color: rgb(236, 237, 244);
+    padding: 20px;
+    margin-right: 5px;
+}
+.box{
+    background-color: rgb(236, 237, 244);
+    padding: 20px;
+    margin-right: 5px;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+}
+.srid-box{
+    display: grid;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    row-gap: 10px;
+}
